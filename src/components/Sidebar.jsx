@@ -9,7 +9,7 @@ const Sidebar = () => {
     return (
         <div className='side-bar'>
             { pictures.map((picture) => (
-                <img src={ picture } key={ picture.toString() } />
+                <img src={ picture } alt="no room objects" key={ picture.toString() } />
             )) }
         </div>
     );

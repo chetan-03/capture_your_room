@@ -33,8 +33,8 @@ const Main = () => {
                     </Modal.Body>
                 </Modal>
                 { file && <>
-                    <a onClick={ () => setFile() } className="btn btn-danger remove">remove</a>
-                    <img className="picture" src={ file } alt="image not found" />
+                    <Button onClick={ () => setFile() } className="btn btn-danger remove">remove</Button>
+                    <img className="picture" src={ file } alt="file not found" />
                 </> }
             </div>
         </div>

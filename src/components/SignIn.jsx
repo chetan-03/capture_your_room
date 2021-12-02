@@ -1,13 +1,9 @@
 import React from 'react'
 import { Form, Button } from 'react-bootstrap'
-const SignUp = () => {
+const SignIn = () => {
     return (
         <div className="outter-main">
             <Form className='p-5'>
-                <Form.Group className="mb-3" controlId="formBasicName">
-                    <Form.Label>Name</Form.Label>
-                    <Form.Control type="text" placeholder="Enter You name" />
-                </Form.Group>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Email address</Form.Label>
                     <Form.Control type="email" placeholder="Enter email" />
@@ -18,11 +14,11 @@ const SignUp = () => {
                     <Form.Control type="password" placeholder="Password" />
                 </Form.Group>
                 <Button variant="success" type="submit">
-                    Sign Up
+                    Sign In
                 </Button>
             </Form>
         </div>
     )
 }
 
-export default SignUp
+export default SignIn
